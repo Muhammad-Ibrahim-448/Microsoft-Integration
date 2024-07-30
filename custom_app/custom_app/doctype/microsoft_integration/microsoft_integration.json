@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-08 13:36:51.293901",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "start_meeting_section",
+  "name1"
+ ],
+ "fields": [
+  {
+   "fieldname": "start_meeting_section",
+   "fieldtype": "Section Break",
+   "label": "Start Meeting"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-08 14:07:36.424128",
+ "modified_by": "Administrator",
+ "module": "Custom App",
+ "name": "Microsoft Integration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
